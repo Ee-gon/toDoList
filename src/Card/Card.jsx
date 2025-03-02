@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ss from "./Card.module.css";
 
 export default function Card({
@@ -44,8 +44,8 @@ export default function Card({
     }
   
     return (
-      <div className={s.cardBox}>
-        <div className={s.controlBtns}>
+      <div className={ss.cardBox}>
+        <div className={ss.controlBtns}>
           <button onClick={() => handleDelete(id)}>
             <i className="material-symbols-outlined">delete</i>
           </button>
@@ -58,8 +58,8 @@ export default function Card({
           </button>
         </div>
   
-        <div className={isCompleted ? s.completed : s.contentWrapper}>
-          <div className={s.titleWrapper}>
+        <div className={isCompleted ? ss.completed : ss.contentWrapper}>
+          <div className={ss.titleWrapper}>
             <input
               type="text"
               name="title"
@@ -76,7 +76,7 @@ export default function Card({
               disabled={isDisabled}
             />
           </div>
-          <div className={s.checkboxWrapper}>
+          <div className={ss.checkboxWrapper}>
             <input
               type="checkbox"
               name="check"

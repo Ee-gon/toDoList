@@ -1,16 +1,30 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
+  margin: 0 auto;
+}
+
+.header{
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+#appName{
+  margin-block: 1px;
 }
+
+#authorNote{
+  margin-block: 1px;
+}
+
+#line{
+  margin-block: 18px;
+}
+
+.addNew{
+  text-align: center;
+  margin-block: 1px;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }

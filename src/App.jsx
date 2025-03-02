@@ -82,7 +82,14 @@ async function createTask(data) {
 
 return (
   <>
-  <h1>MyPlanner</h1>
+  <div className='header'>
+  <h1 id = "appName">MyPlanner</h1>
+  <h6 id = "authorNote">~* made by Egon *~</h6>
+  <h3 id= "line"><b>_______________________________________________________________________________</b></h3>
+  </div>
+  <p className='addNew'>Add a new task!</p>
+  <h6 className = 'addNew'>(go on, whatever you want)</h6>
+
   <FillOut handleCreate={createTask} />
   {tasks.length === 0 ? (
     <p className = "serverInfo">Sorry dude, the server really sucks right now</p>
