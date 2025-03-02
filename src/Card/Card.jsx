@@ -59,8 +59,9 @@ export default function Card({
         </div>
   
         <div className={isCompleted ? ss.completed : ss.contentWrapper}>
-          <div className={ss.titleWrapper}>
+          <div className={ss.listWrapper}>
             <input
+              className = {ss.listTitle}
               type="text"
               name="title"
               value={titleText}
@@ -68,6 +69,7 @@ export default function Card({
               disabled={isDisabled}
             />
             <textarea
+              className = {ss.listDescription}
               type="text"
               name="desc"
               value={desc}
@@ -76,7 +78,7 @@ export default function Card({
               disabled={isDisabled}
             />
           </div>
-          <div className={ss.checkboxWrapper}>
+          <div className={ss.checkBox}>
             <input
               type="checkbox"
               name="check"

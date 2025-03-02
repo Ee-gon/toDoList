@@ -13,10 +13,10 @@ export default function FillOut({title, description, handleCreate}) {
 
     return (
         <div className = {ss.fillOutWrap}>
-          <form action = {handleSubmit} className = {ss.fillOutWrap}>
-            <input type = "text" placeholder="Title" name = "title" value = {title} />
-            <input type = "text" placeholder="Description" name = "description" value = {description} />
-            <input type = "submit" value = "Add Task" className = {ss.submitButton} />
+          <form action = {handleSubmit} className = {ss.fillOutForm}>
+            <input type = "text" placeholder="Title" name = "title" value = {title} className = {ss.titleBox} />
+            <input type = "text" placeholder="DESCRIPTION" name = "description" value = {description}  className = {ss.descriptionBox} />
+            <input type = "submit" value = "Add Task" className = {ss.addTaskBox} />
           </form> 
         </div>
     );

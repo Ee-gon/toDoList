@@ -1,18 +1,43 @@
 .fillOutWrapper {
   padding: 10px;
+  border: 1px solid #ffffff;
 }
 
-.form{
+.fillOutForm{
     display: flex;
+    /* text-align: center;    dont need?  */ 
     flex-direction: column;
+    max-width: 500px ;
+    margin-left: 60px;
+    gap: 12px;
 }
 
-.form input{
-  
-
+ .fillOutForm input{
+  font-size: 15px;
+    padding: 10px;
+    text-align: center;
 }
 
-.submit{
+.titleBox {
+    margin-top: 22px;
+    border: solid #ffffff;
+    border-radius: 10px;
+}
 
+.descriptionBox {
+    border: solid #ffffff;
+    border-radius: 10px;
+    height: 100px;
+}
+ .addTaskBox{
+    margin-bottom: 20px;
+    border: solid #a1d4ae;
+    border-radius: 10px;
+    background-color: rgb(86, 160, 100);
+}
+
+.addTaskBox:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.533) 0px 5px 5px 0px, rgba(0, 0, 0, 0.433) 0px 2px 16px 0px;
 }
 

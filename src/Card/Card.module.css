@@ -1,0 +1,50 @@
+.cardBox{
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+    max-width: 500px ;
+    margin-left: 60px;
+    gap: 12px;
+}
+
+.controlBtns{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.listWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    width: 85%;
+}
+
+.listTitle{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #09ac3c;
+}
+
+.listDescription{
+    text-align: left;
+    font-size: 15px;
+    color: #b4ceb1;
+}
+
+.checkBox{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    height: 10%;
+    width: 10%;
+    margin-left: auto;
+    padding: 0px;
+    position: static;
+}
+
+.checkBox input[type="checkbox"]{
+    padding: 0px;
+    transform: scale(3.5);
+}
+
