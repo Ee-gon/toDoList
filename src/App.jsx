@@ -98,8 +98,10 @@ return (
       <Card
         key = {task.id}
         {...task}
-        handleDelete = {deleteTask}
+
         handleUpdate = {updateTask}
+        handleDelete = {deleteTask}
+        
       />     
      ))
     )} 

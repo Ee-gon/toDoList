@@ -10,6 +10,7 @@
 .controlBtns{
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 5px;
 }
 .listWrapper{
     display: flex;
@@ -17,6 +18,15 @@
     text-align: center;
     gap: 15px;
     width: 85%;
+}
+
+.contentWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    background-color: #60331b83;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .listTitle{
@@ -33,18 +43,25 @@
 }
 
 .checkBox{
-    display: flex;
-    flex-direction: column;
     text-align: right;
-    height: 10%;
-    width: 10%;
-    margin-left: auto;
+    margin-left: 20px;
     padding: 0px;
-    position: static;
+    align-self: center;
 }
 
+.completed {
+    
+    display: flex;
+    text-decoration: line-through;
+    margin-bottom: 50px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
 .checkBox input[type="checkbox"]{
-    padding: 0px;
-    transform: scale(3.5);
+    transform: scale(2.5);
 }
 

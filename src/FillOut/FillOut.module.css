@@ -22,12 +22,17 @@
     margin-top: 22px;
     border: solid #ffffff;
     border-radius: 10px;
+    border:solid #a1d4ae;
+    background-color: rgba(46, 139, 86, 0.074);
+    
 }
 
 .descriptionBox {
     border: solid #ffffff;
     border-radius: 10px;
     height: 100px;
+    border:solid #a1d4ae;
+    background-color: rgba(46, 139, 86, 0.074);
 }
  .addTaskBox{
     margin-bottom: 20px;
@@ -38,6 +43,6 @@
 
 .addTaskBox:hover {
     transform: scale(1.02);
-    box-shadow: rgba(0, 0, 0, 0.533) 0px 5px 5px 0px, rgba(0, 0, 0, 0.433) 0px 2px 16px 0px;
+    box-shadow: rgba(1, 149, 68, 0.782) 0px 5px 5px 0px, rgba(0, 255, 26, 0.433) 0px 2px 16px 0px;
 }
 

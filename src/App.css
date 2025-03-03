@@ -6,6 +6,12 @@
 
 .header{
   text-align: center;
+  border-radius: 20px;
+  border-top:solid #a1d4ae5b 2px;
+  border-bottom:solid #a1d4ae50 2px;
+  padding: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 #appName{
